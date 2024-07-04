@@ -21,7 +21,7 @@ def segment_image(model, image):
     return prediction
 
 # Load your pre-trained model (update the path to your model)
-model_path = 'path/to/your_model.h5'
+model_path = 'https://drive.google.com/file/d/13BALWH8A9D1RIk424mTpFLcgDM1o1lVV/view?usp=sharing'
 model = tf.keras.models.load_model(model_path)
 
 # Streamlit app
